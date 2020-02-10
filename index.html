@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<!-- entete -->
+<head>
+	<title>NABALOUM LOUIS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- haut de page -->
+<div>
+   <div class="header_texture"></div>
+  <div class="label" style="color:black">
+    NABALOUM LOUIS
+  </div>
+
+  </center>
+  
+<!-- le menu de navigation -->
+	<center>
+	
+	<nav class="menu-nav">
+		<ul class="menu">
+			<li class="btn">
+				<a href="Mon CV.html">
+				Mon CV
+			</a>
+			</li>
+			<li class="btn">
+				<a href="lettre de motivation.html">
+					Lettre de motivation
+				</a>
+			</li>
+			<li class="btn">
+				<a href="album.html">
+				Mon Album
+	             </a>
+	        </li>     
+
+		</ul>
+	</nav>
+<!-- le contenue sous forme de boîte -->
+
+    
+  </script>
+
+</head>
+<body>
+<form class="form" ></form>
+   <center>
+   <div class="slogan">
+   <input id="btn" value="Afficher la photo" type="button" name="button" onclick="toggle();">
+    <img id="img" style="display:none;" src="Mon CV_files/IMG_10.jpg">
+    <img id="img" style="display:none;" src="Mon CV_files/Photo.jpg">
+    </div>
+   </center>
+<!-- le pieds de page -->
+	<footer>
+		Copyright &copy; ---NABALOUM LOUIS---All right reserved
+	</footer>
+</div>
+<script type="text/javascript">
+	function toggle(){
+		var id='img';
+		var elem=document.getElementById(id);
+		var button=document.getElementById('btn');
+
+		if (elem.style.display=='none'){
+			elem.style.display='block';
+			button.value='Cacher la photo';
+		}
+		else{
+			elem.style.display='none';
+			button.value='Afficher la photo';
+		}
+	}
+</script>
+</body>
+</html>

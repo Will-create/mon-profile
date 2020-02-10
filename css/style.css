@@ -1,0 +1,136 @@
+h1
+{
+	color: black;
+}
+div.slogan{
+	width: 50%;
+	background-color:transparent;
+	border-radius: 8px;
+	border-color: red;
+	size: 50%;
+}
+h1.titreSlogan{
+	font-size: 50px;
+	font-family: 'Verdana';
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	}
+header
+{
+	border-image: 
+	height: 250px;
+}
+div.label{
+	background-image: 
+	font-size: 50px;
+	font-family: 'Anton';
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: 100px;
+}
+footer
+{
+	color: auto;
+	background-color: green;
+}
+nav
+{
+	background-color: transparent;
+	font-size: 40px;
+}
+nav.menu-nav ul li.btn
+{
+position: relative;
+list-style-image: url("home.png");
+display: inline-block;
+}
+nav.menu-nav ul li.btn a
+{
+	position: relative;
+	text-decoration: #fff;
+	background-color: green;
+	font-size: 30px;
+	padding: 8px;
+	color: white;
+	border-radius: 10px;
+}
+nav.menu-nav ul li.btn ul.smenu {
+ 
+    display: none;
+	text-decoration: #fff;
+	background-color: transparent;
+	font-size: 5px;
+	padding: 5px;
+	color: white;
+	border-radius: 5px;
+}
+
+nav .menu-nav ul.menu li ul.smenu {display: none;}
+nav .menu-nav ul.menu li.btn:hover ul.smenu{
+	position: absolute;
+	background-color: transparent;
+	font-size: 5px;
+	padding: 5px;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+	top: 100px;
+	left: 2px;
+
+}
+#smenu a {
+	font-size: 2px;
+}
+nav.menu-nav ul li.btn:hover a
+{
+	color: orange;
+	background-color: black;
+	transition-delay: 5s all;
+	margin-right:20px;
+}
+p.contactez-nous
+{
+	font-size: 60px;
+	text-decoration: red;
+}
+div#contenue
+{
+	background-color: red;
+}
+div#contenue div
+{
+	display: inline-block;
+	width: 45%;
+}
+div#contenue div.leftbox
+{
+	background-color: blue;
+    vertical-align: top;
+    width: 45%;
+}
+div#contenue div.rightbox
+{
+background-color: blue;
+width: 45%;
+}
+{
+	width:1500px;
+	margin: 0 auto;
+	background-color: unset;
+}
+body
+{
+	background-color: orange;
+
+}
+a
+{
+	color: black;
+	size: 50;
+}
+h1.headline
+{
+	font-size: 50px;
+	padding-left: 50px;
+}
